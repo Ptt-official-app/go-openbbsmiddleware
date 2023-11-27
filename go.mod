@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/Ptt-official-app/go-pttbbs v0.24.2
-	github.com/appleboy/graceful v0.0.4
+	github.com/appleboy/graceful v0.1.0
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/golang-jwt/jwt/v4 v4.5.0
