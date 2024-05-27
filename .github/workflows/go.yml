@@ -37,7 +37,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: golangci-lint
-      uses: golangci/golangci-lint-action@v3
+      uses: golangci/golangci-lint-action@v6
       with:
         working-directory: /home/runner/work/go-openbbsmiddleware/go-openbbsmiddleware
         args: --verbose --config /home/runner/work/go-openbbsmiddleware/go-openbbsmiddleware/.golangci.yaml
